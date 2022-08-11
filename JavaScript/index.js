@@ -9,6 +9,7 @@ let PORCENTAJE = 0.05;
 
 async function main() {
     locales = JSON.parse(localStorage.getItem("Personalizadas"));
+    if(!locales) { locales = []; }
 
     anuales = await fetch("./Recursos/Anuales.json")
     .then(res => res.json());
@@ -16,11 +17,15 @@ async function main() {
     let selectTabla = document.querySelector("#rangosAnuales");
     for (let i = 0; i < locales.length; i++) {
         const tabla = locales[i];
-        selectTabla.innerHTML = `<option value="${tabla.nombre}">${tabla.nombre}</option>`
+        if (tabla != null) {
+            selectTabla.innerHTML = `<option value="${tabla.nombre}">${tabla.nombre}</option>`;
+        }
     }
     for (let i = anuales.length - 1; i >= 0; i--) {
         const anual = anuales[i];
-        selectTabla.innerHTML += `<option value="${anual.nombre}">${anual.nombre}</option>`;
+        if (anual != null) {
+            selectTabla.innerHTML += `<option value="${anual.nombre}">${anual.nombre}</option>`;
+        }
     }
     selectTabla.addEventListener("change", (e) => { establecerRango(e.target.value) });
 
