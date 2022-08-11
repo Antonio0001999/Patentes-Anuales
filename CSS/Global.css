@@ -1,0 +1,33 @@
+/*VARIABLES*/
+    :root {
+        --IA: rgb(0, 70, 100);
+        --fondo: rgb(230, 230, 230);
+        --IA_alt: rgb(140, 156, 152);
+    }
+
+/*COMPONENTES*/
+    body {
+        background-color: var(--fondo);
+        overflow-x: hidden;
+    }
+
+/*CLASES*/
+    .btn-IA {
+        background-color: var(--IA);
+        color: white;
+    }
+    .btn-IA:hover {
+        background-color: var(--fondo);
+        color: black;
+    }
+
+/*IDENTIFICADORES*/
+    #cabecera {
+        background-color: var(--IA) !important;
+        color: white;
+        min-height: 10vh;
+    }
+    #logo {
+        height: 5vh;
+        pointer-events: none;
+    }

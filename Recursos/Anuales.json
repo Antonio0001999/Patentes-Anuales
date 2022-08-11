@@ -1,0 +1,55 @@
+[
+    {
+        "nombre": "Año 2020",
+        "rangos": [
+            { "base": 0.00,       "cuotaFija": 0.00,        "alicuota": 3.55, "cuotas": 3 },
+            { "base": 70000.00,   "cuotaFija": 2485.00,     "alicuota": 4.26, "cuotas": 3 },
+            { "base": 90000.00,   "cuotaFija": 3337.00,     "alicuota": 4.49, "cuotas": 3 },
+            { "base": 120000.00,  "cuotaFija": 4684.00,     "alicuota": 4.82, "cuotas": 3 },
+            { "base": 150000.00,  "cuotaFija": 6131.00,     "alicuota": 5.27, "cuotas": 3 },
+            { "base": 200000.00,  "cuotaFija": 8767.00,     "alicuota": 5.85, "cuotas": 3 },
+            { "base": 250000.00,  "cuotaFija": 11691.00,    "alicuota": 6.26, "cuotas": 3 },
+            { "base": 350000.00,  "cuotaFija": 17955.00,    "alicuota": 6.37, "cuotas": 3 }
+        ]
+    },
+    {
+        "nombre": "Año 2021",
+        "rangos": [
+            { "base": 0.00, "cuotaFija": 0.00, "alicuota": 3.554, "cuotas": 3 },
+            { "base": 250000.00, "cuotaFija": 8885.00, "alicuota": 4.755, "cuotas": 3 },
+            { "base": 300000.00, "cuotaFija": 11263.00, "alicuota": 5.300, "cuotas": 3 },
+            { "base": 350000.00, "cuotaFija": 13913.00, "alicuota": 5.606, "cuotas": 3 },
+            { "base": 400000.00, "cuotaFija": 16716.00, "alicuota": 5.777, "cuotas": 3 },
+            { "base": 450000.00, "cuotaFija": 19605.00, "alicuota": 5.847, "cuotas": 3 },
+            { "base": 500000.00, "cuotaFija": 22529.00, "alicuota": 5.961, "cuotas": 3 },
+            { "base": 550000.00, "cuotaFija": 25510.00, "alicuota": 6.016, "cuotas": 3 },
+            { "base": 600000.00, "cuotaFija": 28518.00, "alicuota": 6.111, "cuotas": 3 },
+            { "base": 650000.00, "cuotaFija": 31574.00, "alicuota": 6.160, "cuotas": 3 },
+            { "base": 700000.00, "cuotaFija": 34654.00, "alicuota": 6.209, "cuotas": 3 },
+            { "base": 750000.00, "cuotaFija": 37759.00, "alicuota": 6.272, "cuotas": 3 },
+            { "base": 850000.00, "cuotaFija": 44031.00, "alicuota": 6.347, "cuotas": 3 },
+            { "base": 1000000.00, "cuotaFija": 53552.00, "alicuota": 6.355, "cuotas": 3 },
+            { "base": 5000000.00, "cuotaFija": 307752.00, "alicuota": 6.370, "cuotas": 3 }
+        ]
+    },
+    {
+        "nombre": "Año 2022",
+        "rangos": [
+            { "base": 0.00, "cuotaFija": 0.00, "alicuota": 3.305, "cuotas": 5 },
+            { "base": 350000.00, "cuotaFija": 11568.00, "alicuota": 4.446, "cuotas": 5 },
+            { "base": 420000.00, "cuotaFija": 14680.00, "alicuota": 4.982, "cuotas": 5 },
+            { "base": 490000.00, "cuotaFija": 18167.00, "alicuota": 5.298, "cuotas": 5 },
+            { "base": 560000.00, "cuotaFija": 21876.00, "alicuota": 5.488, "cuotas": 5 },
+            { "base": 630000.00, "cuotaFija": 25718.00, "alicuota": 5.584, "cuotas": 5 },
+            { "base": 700000.00, "cuotaFija": 29627.00, "alicuota": 5.723, "cuotas": 5 },
+            { "base": 770000.00, "cuotaFija": 33633.00, "alicuota": 5.805, "cuotas": 5 },
+            { "base": 840000.00, "cuotaFija": 37697.00, "alicuota": 5.928, "cuotas": 5 },
+            { "base": 910000.00, "cuotaFija": 41847.00, "alicuota": 6.006, "cuotas": 5 },
+            { "base": 980000.00, "cuotaFija": 46051.00, "alicuota": 6.085, "cuotas": 5 },
+            { "base": 1050000.00, "cuotaFija": 50311.00, "alicuota": 6.178, "cuotas": 5 },
+            { "base": 1190000.00, "cuotaFija": 58960.00, "alicuota": 6.284, "cuotas": 5 },
+            { "base": 1400000.00, "cuotaFija": 72156.00, "alicuota": 6.323, "cuotas": 5 },
+            { "base": 8000000.00, "cuotaFija": 480474.00, "alicuota": 6.370, "cuotas": 5 }
+        ]
+    }
+]
