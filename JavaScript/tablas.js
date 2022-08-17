@@ -61,9 +61,9 @@ function agregarTabla() {
         let nombre = document.querySelector("#nombre").value;
         if (nombre == "") { return errores.innerHTML = "Se requiere nombre para la tabla."; }
 
-        let bases = (document.querySelector("#bases").value).split(";");
-        let alicuotas = (document.querySelector("#alicuotas").value).split(";");
-        let cuotasFijas = (document.querySelector("#cuotasFijas").value).split(";");
+        let bases = (document.querySelector("#bases").value).split("; ");
+        let alicuotas = (document.querySelector("#alicuotas").value).split("; ");
+        let cuotasFijas = (document.querySelector("#cuotasFijas").value).split("; ");
         let cuotas = (document.querySelector("#cuotas").value);
 
         let tabla = {
